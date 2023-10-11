@@ -1,0 +1,42 @@
+Github (cont.)
+---------------------------
+Requirements
+1) Need a git account
+2) Git must be installed
+
+
+First time setup
+---------------------------
+git config --global user.name "GIT USERNAME"
+git config --global user.email "EMAIL ID"
+
+
+
+commands for pushing the code initially
+============================================
+//to initialize particular folder as git repository
+1) git init 
+
+//add origin
+2) git remote add origin github_url
+
+//to list the files that need to be pushed (red color outs)
+3) git status
+
+//to copy files from local storage to staging area
+4) git add .
+
+//to copy files from staging area to local repository
+5) git commit -m "a message"
+
+//to copy files from local repo to remote repository
+6) git push origin master
+
+
+
+from second time onwards
+=====================================================
+step 3 to 6 
+
+to download full code           :      git clone github_url
+to download only changes        :      git pull origin master
